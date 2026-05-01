@@ -62,7 +62,47 @@
 // numberAndRoll[1] = 12
 
 
+//! reference type Object 
+// const user : {
+//      firstName: string;
+//      middleName?: string;
+//      lastName: string;
+//      isMarried: boolean;
+// } = {
+//      firstName : "Salman",
+//      lastName : "farcy",
+//      isMarried : true
+// }
+
+// ! Literal type
+// const user : {
+//      organization: "Programming Hero"; // value ke type hisabe use kora hoyeche
+//      firstName: string;
+//      middleName?: string;
+//      lastName: string;
+//      isMarried: boolean;
+// } = {
+//      organization : "Programming Hero",
+//      firstName : "Salman",
+//      lastName : "farcy",
+//      isMarried : true
+// }
 
 
-//! Object
+
+
+// ! access modifier
+// const user : {
+//     readonly organization: string; 
+//      firstName: string;
+//      middleName?: string;
+//      lastName: string;
+//      isMarried: boolean;
+// } = {
+//      organization : "Programming Hero",
+//      firstName : "Salman",
+//      lastName : "farcy",
+//      isMarried : true
+// }
+
 
