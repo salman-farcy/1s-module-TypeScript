@@ -1,0 +1,47 @@
+//? array, object
+
+//! array
+
+// let bazarList : string[] = ["banana", "milk", "onion"];
+// bazarList.push("grapes");
+
+// 1
+// ?last item print করো
+// ?length বের করো
+const fruits: string[] = ["apple", "banana", "mango"];
+console.log(fruits[2]); // mango 
+
+// 2
+// ?সব নাম uppercase করে print করো
+// ?name এর length print করো
+const users: string[] = ["Salman", "Farcy", "Jannat"];
+users.forEach((user) => {
+  console.log(user.toUpperCase());
+  console.log(user.length);
+});
+
+
+// 3
+// ?function বানাও → শুধু 5 letter এর বেশি নাম return করবে
+function printNames(names: string[]): void {
+  names.forEach((name) => {
+     if(name.length > 5) {
+          console.log(name);
+     }
+  });
+}
+printNames(["A", "B", "C", 'salman', 'farcy', 'jannat']);
+
+
+// 4
+// ?সব নাম capital letter করো (map)
+// ?short name remove করো (filter)
+const products: string[] = ["laptop", "phone", "tv", "watch", "phone", "voi"];
+const capitalizedProducts = products.map((product) => {
+    return product.toUpperCase()
+})
+console.log(capitalizedProducts);
+const filteredProducts = capitalizedProducts.filter((product) => {
+     return product.length > 3
+})
+console.log(filteredProducts);
