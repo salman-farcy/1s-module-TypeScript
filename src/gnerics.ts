@@ -19,9 +19,9 @@ const coordinates3 : Coodfaosj1<boolean, boolean> = [true, false]
 
 
 
+type User = {name: string, age: number}
 
-
-const userList : GenericArray<{name: string, age: number}>= [
+const userList : GenericArray<User>= [
      {
           name: "Mr. x",
           age:  24
